@@ -132,7 +132,7 @@ const Address = () => {
 
         <div className="col-md-6">
           <div className="row">
-            <h1 className="text-center">เพิ่มที่อยู่สำหรับจัดส่ง</h1>
+            <h1 className="text-center">เพิ่มที่อยู่สำหรับจัดส่งสินค้า</h1>
             {/* test form control 12/10/2022 */}
             <br/>
             <form onSubmit={onSubmit}>
