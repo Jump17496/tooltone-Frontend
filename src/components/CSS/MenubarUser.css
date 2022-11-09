@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  /* Navigation STyling */
+  .main-nav {
+    width: 260px;
+    background: rgba(0, 0, 0, 0.15);
+    height: auto;
+  }
+
+  .main-nav1 {
+    width: 260px;
+    background: blue;
+    height: auto;
+  }
+
+  .main-nav a {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #000;
+    display: block;
+    padding: 10px 0 10px 20px;
+    border-bottom: 1px gray;
+  }
+  .main-nav a:hover {
+    background: rgb(142, 146, 146);
+  }
+  .main-nav-ul ul {
+    display: none;
+  }
+  .main-nav-ul li:hover ul {
+    display: block;
+  }
+  .main-nav-ul ul a:before {
+    content: "\203A";
+    margin-right: 20px;
+  }
+  .main-nav .sub-arrow:after {
+    content: "\203A";
+    float: right;
+    margin-right: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+  }
+  .main-nav li:hover .sub-arrow:after {
+    content: "\2039";
+  }
