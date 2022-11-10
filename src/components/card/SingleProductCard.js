@@ -125,7 +125,7 @@ const SingleProductCard = ({ product }) => {
             {category && (
               <li className="list-group-item">
                 
-                <span className="text-start">Category:{category.name}</span>
+                <span className="text-start">Brand:{category.name}</span>
               </li>
             )}
           </ul>
