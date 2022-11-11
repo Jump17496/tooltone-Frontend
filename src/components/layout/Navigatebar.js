@@ -90,7 +90,7 @@ const Navigatebar = () => {
                     {user.role === "user" && (
                       <>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="/user/index">
+                        <NavDropdown.Item href="/user/wishlist">
                           home-user
                         </NavDropdown.Item>
                       </>
